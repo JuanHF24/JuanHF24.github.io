@@ -1,0 +1,17 @@
+<h2>EDUCATION</h2>
+
+<table border="0">
+    <ul *ngFor="let edu of educationList">
+        <li>
+            <tr>
+                <td>{{ edu.fechaInicio }} - {{ edu.fechaFin }}</td>
+            </tr>
+            <tr>
+                <td>{{ edu.facultad }}</td>
+            </tr>
+            <tr>
+                <td>{{ edu.universidad }}</td>
+            </tr>
+        </li>
+    </ul>
+</table>
